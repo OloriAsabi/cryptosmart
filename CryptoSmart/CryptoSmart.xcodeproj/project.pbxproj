@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4AECE327D0D488005422DE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECE227D0D488005422DE /* Tests_iOS.swift */; };
+		DB4AECE527D0D488005422DE /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECE427D0D488005422DE /* Tests_iOSLaunchTests.swift */; };
+		DB4AECEF27D0D488005422DE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECEE27D0D488005422DE /* Tests_macOS.swift */; };
+		DB4AECF127D0D488005422DE /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECF027D0D488005422DE /* Tests_macOSLaunchTests.swift */; };
+		DB4AECF227D0D488005422DE /* CryptoSmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECCA27D0D486005422DE /* CryptoSmartApp.swift */; };
+		DB4AECF327D0D488005422DE /* CryptoSmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECCA27D0D486005422DE /* CryptoSmartApp.swift */; };
+		DB4AECF427D0D488005422DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECCB27D0D486005422DE /* ContentView.swift */; };
+		DB4AECF527D0D488005422DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AECCB27D0D486005422DE /* ContentView.swift */; };
+		DB4AECF627D0D488005422DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4AECCC27D0D488005422DE /* Assets.xcassets */; };
+		DB4AECF727D0D488005422DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4AECCC27D0D488005422DE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4AECDF27D0D488005422DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4AECC527D0D485005422DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4AECD027D0D488005422DE;
+			remoteInfo = "CryptoSmart (iOS)";
+		};
+		DB4AECEB27D0D488005422DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4AECC527D0D485005422DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4AECD627D0D488005422DE;
+			remoteInfo = "CryptoSmart (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB4AECCA27D0D486005422DE /* CryptoSmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSmartApp.swift; sourceTree = "<group>"; };
+		DB4AECCB27D0D486005422DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB4AECCC27D0D488005422DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4AECD127D0D488005422DE /* CryptoSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4AECD727D0D488005422DE /* CryptoSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4AECD927D0D488005422DE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DB4AECDE27D0D488005422DE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4AECE227D0D488005422DE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DB4AECE427D0D488005422DE /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		DB4AECEA27D0D488005422DE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4AECEE27D0D488005422DE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DB4AECF027D0D488005422DE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4AECCE27D0D488005422DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECD427D0D488005422DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECDB27D0D488005422DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECE727D0D488005422DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4AECC427D0D485005422DE = {
+			isa = PBXGroup;
+			children = (
+				DB4AECC927D0D486005422DE /* Shared */,
+				DB4AECD827D0D488005422DE /* macOS */,
+				DB4AECE127D0D488005422DE /* Tests iOS */,
+				DB4AECED27D0D488005422DE /* Tests macOS */,
+				DB4AECD227D0D488005422DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4AECC927D0D486005422DE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AECCA27D0D486005422DE /* CryptoSmartApp.swift */,
+				DB4AECCB27D0D486005422DE /* ContentView.swift */,
+				DB4AECCC27D0D488005422DE /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DB4AECD227D0D488005422DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AECD127D0D488005422DE /* CryptoSmart.app */,
+				DB4AECD727D0D488005422DE /* CryptoSmart.app */,
+				DB4AECDE27D0D488005422DE /* Tests iOS.xctest */,
+				DB4AECEA27D0D488005422DE /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4AECD827D0D488005422DE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AECD927D0D488005422DE /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DB4AECE127D0D488005422DE /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AECE227D0D488005422DE /* Tests_iOS.swift */,
+				DB4AECE427D0D488005422DE /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DB4AECED27D0D488005422DE /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AECEE27D0D488005422DE /* Tests_macOS.swift */,
+				DB4AECF027D0D488005422DE /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4AECD027D0D488005422DE /* CryptoSmart (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4AECFA27D0D488005422DE /* Build configuration list for PBXNativeTarget "CryptoSmart (iOS)" */;
+			buildPhases = (
+				DB4AECCD27D0D488005422DE /* Sources */,
+				DB4AECCE27D0D488005422DE /* Frameworks */,
+				DB4AECCF27D0D488005422DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoSmart (iOS)";
+			productName = "CryptoSmart (iOS)";
+			productReference = DB4AECD127D0D488005422DE /* CryptoSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4AECD627D0D488005422DE /* CryptoSmart (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4AECFD27D0D488005422DE /* Build configuration list for PBXNativeTarget "CryptoSmart (macOS)" */;
+			buildPhases = (
+				DB4AECD327D0D488005422DE /* Sources */,
+				DB4AECD427D0D488005422DE /* Frameworks */,
+				DB4AECD527D0D488005422DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoSmart (macOS)";
+			productName = "CryptoSmart (macOS)";
+			productReference = DB4AECD727D0D488005422DE /* CryptoSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4AECDD27D0D488005422DE /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4AED0027D0D488005422DE /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DB4AECDA27D0D488005422DE /* Sources */,
+				DB4AECDB27D0D488005422DE /* Frameworks */,
+				DB4AECDC27D0D488005422DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4AECE027D0D488005422DE /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DB4AECDE27D0D488005422DE /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DB4AECE927D0D488005422DE /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4AED0327D0D488005422DE /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DB4AECE627D0D488005422DE /* Sources */,
+				DB4AECE727D0D488005422DE /* Frameworks */,
+				DB4AECE827D0D488005422DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4AECEC27D0D488005422DE /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DB4AECEA27D0D488005422DE /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4AECC527D0D485005422DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DB4AECD027D0D488005422DE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DB4AECD627D0D488005422DE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DB4AECDD27D0D488005422DE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DB4AECD027D0D488005422DE;
+					};
+					DB4AECE927D0D488005422DE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DB4AECD627D0D488005422DE;
+					};
+				};
+			};
+			buildConfigurationList = DB4AECC827D0D485005422DE /* Build configuration list for PBXProject "CryptoSmart" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4AECC427D0D485005422DE;
+			productRefGroup = DB4AECD227D0D488005422DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4AECD027D0D488005422DE /* CryptoSmart (iOS) */,
+				DB4AECD627D0D488005422DE /* CryptoSmart (macOS) */,
+				DB4AECDD27D0D488005422DE /* Tests iOS */,
+				DB4AECE927D0D488005422DE /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4AECCF27D0D488005422DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AECF627D0D488005422DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECD527D0D488005422DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AECF727D0D488005422DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECDC27D0D488005422DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECE827D0D488005422DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4AECCD27D0D488005422DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AECF427D0D488005422DE /* ContentView.swift in Sources */,
+				DB4AECF227D0D488005422DE /* CryptoSmartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECD327D0D488005422DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AECF527D0D488005422DE /* ContentView.swift in Sources */,
+				DB4AECF327D0D488005422DE /* CryptoSmartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECDA27D0D488005422DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AECE527D0D488005422DE /* Tests_iOSLaunchTests.swift in Sources */,
+				DB4AECE327D0D488005422DE /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4AECE627D0D488005422DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4AECF127D0D488005422DE /* Tests_macOSLaunchTests.swift in Sources */,
+				DB4AECEF27D0D488005422DE /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4AECE027D0D488005422DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4AECD027D0D488005422DE /* CryptoSmart (iOS) */;
+			targetProxy = DB4AECDF27D0D488005422DE /* PBXContainerItemProxy */;
+		};
+		DB4AECEC27D0D488005422DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4AECD627D0D488005422DE /* CryptoSmart (macOS) */;
+			targetProxy = DB4AECEB27D0D488005422DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB4AECF827D0D488005422DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB4AECF927D0D488005422DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DB4AECFB27D0D488005422DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.CryptoSmart;
+				PRODUCT_NAME = CryptoSmart;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4AECFC27D0D488005422DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.CryptoSmart;
+				PRODUCT_NAME = CryptoSmart;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4AECFE27D0D488005422DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.CryptoSmart;
+				PRODUCT_NAME = CryptoSmart;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB4AECFF27D0D488005422DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.CryptoSmart;
+				PRODUCT_NAME = CryptoSmart;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DB4AED0127D0D488005422DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CryptoSmart (iOS)";
+			};
+			name = Debug;
+		};
+		DB4AED0227D0D488005422DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CryptoSmart (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4AED0427D0D488005422DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CryptoSmart (macOS)";
+			};
+			name = Debug;
+		};
+		DB4AED0527D0D488005422DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CryptoSmart (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4AECC827D0D485005422DE /* Build configuration list for PBXProject "CryptoSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AECF827D0D488005422DE /* Debug */,
+				DB4AECF927D0D488005422DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4AECFA27D0D488005422DE /* Build configuration list for PBXNativeTarget "CryptoSmart (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AECFB27D0D488005422DE /* Debug */,
+				DB4AECFC27D0D488005422DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4AECFD27D0D488005422DE /* Build configuration list for PBXNativeTarget "CryptoSmart (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AECFE27D0D488005422DE /* Debug */,
+				DB4AECFF27D0D488005422DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4AED0027D0D488005422DE /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AED0127D0D488005422DE /* Debug */,
+				DB4AED0227D0D488005422DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4AED0327D0D488005422DE /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4AED0427D0D488005422DE /* Debug */,
+				DB4AED0527D0D488005422DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4AECC527D0D485005422DE /* Project object */;
+}

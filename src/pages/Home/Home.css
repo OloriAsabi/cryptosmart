@@ -1,0 +1,30 @@
+.home-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .footer {
+    background-color: #001529;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  @media screen and (max-width: 800px) {
+  
+    .home-title {
+      font-size: 1.4rem !important;
+    }
+    .show-more {
+      font-size: 1.3rem !important;
+    }
+  }
+  .loading{
+      font-size: 40px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
