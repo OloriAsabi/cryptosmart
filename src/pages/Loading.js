@@ -1,10 +1,9 @@
 import React from 'react'
-import '../pages/Home/Home.css'
-
+import { Spin } from 'antd';
 const Loading = () => {
   return (
-    <div className='loading'>
-        Loading...
+    <div>
+        <Spin/>
         </div>
   )
 }

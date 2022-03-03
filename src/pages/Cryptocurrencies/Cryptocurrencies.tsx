@@ -43,11 +43,11 @@ console.log(cryptos)
     <IonGrid>
  <Row gutter={[32, 32]}  className='crypto-card-container'>
       {cryptos?.map((currency:
-       { id: React.Key | null | undefined , rank: any, name: any, iconUrl: string, price: string, marketCap: string, change: string}
+       { uuid: React.Key | null | undefined , rank: any, name: any, iconUrl: string, price: string, marketCap: string, change: string}
        ) => ( 
      
-        <Col xs={24} sm={12} lg={6} className="crypto-card" key={currency.id}>
-          <Link to={`/cryptocurrencies/${currency.id}`}>
+        <Col xs={24} sm={12} lg={6} className="crypto-card" key={currency.uuid}>
+          <Link to={`/cryptocurrencies/${currency.uuid}`}>
           <Card
              title={`${currency.rank}. ${currency.name}`}
              hoverable

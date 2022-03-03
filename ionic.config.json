@@ -1,5 +1,7 @@
 {
   "name": "Cryptosmart",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }

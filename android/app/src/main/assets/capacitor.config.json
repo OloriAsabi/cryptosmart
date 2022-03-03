@@ -1,0 +1,6 @@
+{
+	"appId": "com.personal.cryptosmart",
+	"appName": "Cryptosmart",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
