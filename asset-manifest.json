@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cryptosmart/static/css/main.0952e4b2.css",
-    "main.js": "/cryptosmart/static/js/main.30b50736.js",
+    "main.js": "/cryptosmart/static/js/main.db8eb962.js",
     "static/js/3630.63e6ec8d.chunk.js": "/cryptosmart/static/js/3630.63e6ec8d.chunk.js",
     "static/js/1609.b630caec.chunk.js": "/cryptosmart/static/js/1609.b630caec.chunk.js",
     "static/js/3305.7a8a4772.chunk.js": "/cryptosmart/static/js/3305.7a8a4772.chunk.js",
@@ -68,7 +68,7 @@
     "service-worker.js": "/cryptosmart/service-worker.js",
     "index.html": "/cryptosmart/index.html",
     "main.0952e4b2.css.map": "/cryptosmart/static/css/main.0952e4b2.css.map",
-    "main.30b50736.js.map": "/cryptosmart/static/js/main.30b50736.js.map",
+    "main.db8eb962.js.map": "/cryptosmart/static/js/main.db8eb962.js.map",
     "3630.63e6ec8d.chunk.js.map": "/cryptosmart/static/js/3630.63e6ec8d.chunk.js.map",
     "1609.b630caec.chunk.js.map": "/cryptosmart/static/js/1609.b630caec.chunk.js.map",
     "3305.7a8a4772.chunk.js.map": "/cryptosmart/static/js/3305.7a8a4772.chunk.js.map",
@@ -135,6 +135,6 @@
   },
   "entrypoints": [
     "static/css/main.0952e4b2.css",
-    "static/js/main.30b50736.js"
+    "static/js/main.db8eb962.js"
   ]
 }
