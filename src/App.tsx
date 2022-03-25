@@ -1,6 +1,6 @@
 import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Link, Redirect, Route } from 'react-router-dom';
+import { Redirect, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import './App.css'
 
@@ -24,7 +24,6 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import Home from './pages/Home/Home';
 
-import Cryptocurrencies from './pages/Cryptocurrencies/Cryptocurrencies';
 import CryptoDetails from './pages/Cryptocurrencies/CryptoDetails';
 import Exchanges from './pages/Exchanges/Exchange';
 import Cryptocurrency from './pages/Cryptocurrencies/Cryptocurrency';
@@ -39,7 +38,7 @@ const App: React.FC = () => {
         <IonSplitPane contentId="main">
           <Menu />
           <IonRouterOutlet id="main">
-            <Route path="/" exact={true}>
+            <Route path="/home" exact={true}>
               <Redirect to="/" />
             </Route>
             <Route path="/" exact={true} component={Home}>
